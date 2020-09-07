@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo CSS</title>
+    <link rel="stylesheet" href="style1.css"> <!-- Folhas de estilo ligadas, através de link -->
+
+    <!-- Estilo incorporado sendo utilizado abaixo e o Estilo importado (@import) -->
+    <style>
+        @import url('style2.css');
+        h3{
+            font-size: 48px; 
+            color: #888;
+        }
+    </style> <!-- Estilo incorporado e Estilo importado (@import) encerrado -->
+</head>
+
+<body>
+    
+    <h1 style="color:darkcyan; font-size: 70px;" >Título Principal</h1> <!-- Estilo inline sendo utilizado  -->
+
+    <div class="panel">
+        <h3>Painel 1</h3>
+        <div>
+            Conteúdo do Painel 1
+        </div>
+    </div>
+
+    <div class="panel">
+        <h3>Painel2</h3>
+        <div>
+            <p>Parágrafo 1</p>
+            <p id="paragrafo_importante">Parágrafo 2</p>
+        </div>
+    </div>
+
+</body>
+</html>
